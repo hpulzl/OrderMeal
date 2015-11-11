@@ -1,0 +1,70 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="lzl.edu.com.ordermeal.ui.GetCommentActivity">
+ <include layout="@layout/meal_header"/>
+    <RelativeLayout
+        android:divider="@color/linear_bg_grey"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    <ProgressBar
+        android:id="@+id/comment_pb"
+        style="@android:style/Widget.ProgressBar"
+        android:visibility="gone"
+        android:layout_centerInParent="true"
+        android:layout_width="100dp"
+        android:layout_height="50dp" />
+    <EditText
+        android:hint="我来说两句..."
+        android:id="@+id/item_comment_et"
+        android:singleLine="true"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/bg_edittext_focused"
+        android:minLines="5"
+        android:gravity="top"
+        android:layout_width="match_parent"
+        android:layout_height="100dp" />
+        <Button
+            android:text="提交"
+            android:id="@+id/item_submit_btn"
+            android:textColor="@color/color_white"
+            android:layout_below="@+id/item_comment_et"
+            android:background="@drawable/title_main_selector"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="8dp"
+            android:layout_alignParentEnd="true"
+            android:layout_width="50dp"
+            android:layout_height="25dp" />
+    <TextView
+        android:layout_below="@+id/item_submit_btn"
+        android:id="@+id/text_content"
+        android:text="评论内容"
+        android:layout_marginLeft="5dp"
+        android:layout_marginBottom="5dp"
+        android:textSize="20sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <View
+        android:id="@+id/item_view_line"
+        android:layout_below="@+id/text_content"
+        android:background="@color/title_change_rteal"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"/>
+        <ListView
+            android:layout_below="@+id/item_view_line"
+            android:divider="@color/color_image_teal"
+            android:id="@+id/item_comment_lv"
+            android:dividerHeight="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:scrollbars="none"
+            android:layout_marginLeft="5dp"
+            android:listSelector="@color/color_line"
+            />
+    </RelativeLayout>
+
+</LinearLayout>

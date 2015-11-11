@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@color/title_change_rteal"
+    android:layout_width="match_parent"
+    android:layout_height="45dp">
+    <Button
+        android:id="@+id/mealReturn_btn"
+        android:text="@string/title_return"
+        android:layout_marginLeft="3dp"
+        android:textColor="#ffffff"
+        android:layout_centerVertical="true"
+        android:textSize="25sp"
+        android:background="@drawable/title_main_selector"
+        android:layout_width="wrap_content"
+        android:layout_height="45dp" />
+    <TextView
+        android:id="@+id/meal_name"
+        android:text="菜名"
+        android:textColor="#ffffff"
+        android:layout_centerInParent="true"
+        android:textSize="27sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+</RelativeLayout>

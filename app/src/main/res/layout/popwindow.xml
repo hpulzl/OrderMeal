@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+<LinearLayout
+    android:id="@+id/ll_popWindow"
+    android:layout_alignParentBottom="true"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+<LinearLayout
+    android:background="@drawable/view_line"
+    android:layout_width="match_parent"
+    android:layout_height="51dp">
+<Button
+    android:id="@+id/camera_btn"
+    android:text="拍照"
+    android:background="@drawable/btn_pop_selector"
+    android:layout_width="match_parent"
+    android:layout_height="50dp" />
+</LinearLayout>
+    <LinearLayout
+        android:background="@drawable/view_line"
+        android:layout_width="match_parent"
+        android:layout_height="51dp">
+        <Button
+            android:id="@+id/fromPicture_btn"
+            android:text="从相册中选择"
+            android:background="@drawable/btn_pop_selector"
+            android:layout_width="match_parent"
+            android:layout_height="50dp" />
+    </LinearLayout>
+    <LinearLayout
+        android:background="@drawable/view_line"
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+        <Button
+            android:id="@+id/cancel_btn"
+            android:text="取消"
+            android:background="@drawable/btn_pop_selector"
+            android:layout_width="match_parent"
+            android:layout_height="50dp" />
+    </LinearLayout>
+</LinearLayout>
+</RelativeLayout>

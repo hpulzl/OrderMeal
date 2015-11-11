@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">来点餐</string>
+    <string name="hello_world">来点餐吧</string>
+    <string name="login">登录</string>
+    <string name="obtain_checkCode">获取验证码</string>
+    <string name="password">密码</string>
+    <string name="checkCode">验证码</string>
+    <string name="forgetPass">忘记密码?</string>
+    <string name="register">注册</string>
+    <string name="phoneNumber">手机号</string>
+    <string name="action_settings">hhh</string>
+    <string name="title_return">返回</string>
+    <string name="meal_order">点餐</string>
+    <string name="meal_collect">收藏</string>
+    <string name="meal_uncollect">取消收藏</string>
+    <string name="title_main_name">输入本店菜名</string>
+    <string name="title_activity_welcome">发现</string>
+    <string name="title_activity_login">登录</string>
+    <string name="title_activity_register">注册</string>
+    <string name="title_activity_tab_home_page">主页</string>
+    <string name="title_activity_tab_order_page">订餐</string>
+    <string name="title_activity_tab_found_page">发现</string>
+    <string name="title_activity_tab_mine_page">我的</string>
+    <string name="title_activity_menu_item">MenuItemActivity</string>
+    <string name="title_activity_get_comment">GetCommentActivity</string>
+    <string name="title_activity_find_collect">FindCollectActivity</string>
+</resources>

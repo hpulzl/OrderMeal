@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="login_color">#f48f00</color>
+    <color name="bg_btn_press_color">#f47000</color>
+    <color name="text_color_blue">#87CEFA</color>
+    <color name="text_press_blue">#673AB7</color>
+    <color name="title_main_teal">#2196F3</color>
+    <color name="title_change_rteal">#64B5F6</color>
+    <color name="some_main_red">#F44336</color>
+    <color name="some_change_red">#EF5350</color>
+    <color name="color_white">#ffffff</color>
+    <color name="color_line">#d2d2d2</color>
+    <color name="color_image_teal">#E0F2F1</color>
+    <color name="color_image_gteal">#26A69A</color>
+    <color name="color_text_gray">#424242</color>
+    <color name="color_collect">#FF5722</color>
+    <color name="color_order">#FF7043</color>
+    <color name="linear_bg_grey">#BDBDBD</color>
+    <color name="color_blue_bg">#E3F2FD</color>
+</resources>

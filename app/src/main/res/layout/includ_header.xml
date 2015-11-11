@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:background="@color/title_change_rteal"
+    android:layout_width="match_parent"
+    android:layout_height="50dp">
+<Spinner
+    android:id="@+id/meals_sp"
+    android:layout_marginLeft="5dp"
+    android:background="@drawable/title_main_selector"
+    android:layout_width="50dp"
+    android:layout_height="50dp"></Spinner>
+    <EditText
+        android:id="@+id/seach_et"
+        android:enabled="false"
+        android:hint="@string/title_main_name"
+        android:textColorHint="@color/title_change_rteal"
+        android:cursorVisible="false"
+        android:layout_gravity="center"
+        android:layout_marginLeft="10dp"
+        android:layout_width="250dp"
+        android:layout_height="30dp"
+        android:background="@drawable/title_main_edit"/>
+</LinearLayout>

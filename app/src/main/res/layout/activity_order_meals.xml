@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<include
+    android:id="@+id/include_id"
+    layout="@layout/meal_header"/>
+    <ProgressBar
+        android:id="@+id/order_pb"
+        android:visibility="gone"
+        style="?android:attr/progressBarStyleSmallTitle"
+        android:layout_centerInParent="true"
+        android:layout_width="50dp"
+        android:layout_height="50dp" />
+    <LinearLayout
+        android:layout_below="@+id/include_id"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <ListView
+        android:id="@+id/orderMeal_lv"
+        android:layout_height="0dp"
+        android:layout_width="wrap_content"
+        android:layout_weight="1"
+        android:divider="@color/color_image_gteal"
+        android:dividerHeight="7dp"
+        android:listSelector="@color/color_line"/>
+    <LinearLayout
+        android:layout_alignParentBottom="true"
+        android:background="@color/color_white"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="100dp">
+        <TextView
+            android:id="@+id/orderTotal_tv"
+            android:textColor="@color/some_change_red"
+            android:textSize="20sp"
+            android:gravity="center"
+            android:text="共几份美食"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <View
+            android:background="@color/linear_bg_grey"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"/>
+        <Button
+            android:id="@+id/orderPay_btn"
+            android:layout_marginTop="15dp"
+            android:textColor="@color/color_white"
+            android:text="去结算"
+            android:textSize="20sp"
+            android:background="@drawable/btn_bg_selector"
+            android:layout_width="match_parent"
+            android:layout_height="45dp" />
+    </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

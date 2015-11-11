@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--鲁菜、川菜、、、、、-->
+    <string-array name="meals_array">
+        <item>口味</item>
+        <item>家常菜</item>
+        <item>鲁菜</item>
+        <item>川菜</item>
+        <item>粤菜</item>
+        <item>苏菜</item>
+        <item>浙菜</item>
+        <item>闽菜</item>
+        <item>湘菜</item>
+        <item>徽菜</item>
+    </string-array>
+</resources>
